@@ -24,7 +24,7 @@ we've build a **Two-Tier web application** where:
     - 2. Contains **Helm Charts** for the EKS deployments.
      
 ```
-https://github.com/vijaygiduthuri/aws-2-tier-helm-chart.git
+https://github.com/kmdsuhail72/aws-2-tier-helm-chart.git
 ```
 
 
