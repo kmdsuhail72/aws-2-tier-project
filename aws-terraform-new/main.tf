@@ -14,13 +14,12 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket  = "terraformbuckerforstatefiles1" # create s3 bucket to store statefile
-    key     = "dev/terraform.tfstate"
-    region  = "ap-southeast-2"
-    encrypt = false
+    bucket = "suhail-terraform-state-2026-apse2"
+    key    = "dev/terraform.tfstate"
+    region = "ap-southeast-2"
+    encrypt = true
   }
 }
-
 
 # Configure the AWS Provider
 provider "aws" {
