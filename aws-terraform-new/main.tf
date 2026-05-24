@@ -16,7 +16,7 @@ terraform {
   backend "s3" {
     bucket  = "terraformbuckerforstatefiles" # create s3 bucket to store statefile
     key     = "dev/terraform.tfstate"
-    region  = "us-east-1"
+    region  = "ap-southeast-2"
     encrypt = false
   }
 }
